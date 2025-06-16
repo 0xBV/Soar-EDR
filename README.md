@@ -1,8 +1,10 @@
 ## Soar-EDR
-This project demonstrates an end-to-end security orchestration and automation workflow using LimaCharlie EDR and Tines SOAR to detect, notify, and optionally isolate endpoints upon detection of malicious activity
+This project demonstrates an end-to-end security orchestration and automation workflow using LimaCharlie (EDR) and Tines (SOAR) to detect, notify, and optionally isolate endpoints upon detection of malicious activity
 
 ## 📌 Playbook Objective
-Send a Slack message to the user containing information about detections generated from Lima Charlie (EDR).  Generates a user prompt generated from Tines (SOAR) for playbook orchestration to optionally isolate the affected machine.
+Send a Slack message to the user containing information about detections generated from LimaCharlie (EDR).  Generates a user prompt generated from Tines (SOAR) for playbook orchestration to optionally isolate the affected workstation.
+<img width="770" alt="image" src="https://github.com/user-attachments/assets/6d200bf6-a757-4cb6-833d-9e9ebbb54d09" />
+
 
 ## 🛠️ Technologies & Tools
 - LimaCharlie EDR – Detection source and host isolation
@@ -13,4 +15,3 @@ Send a Slack message to the user containing information about detections generat
 
 - Email Notifications – Automated alert delivery
 
-- (Optional: Python scripts or HTTP Request steps in Tines)
