@@ -1,4 +1,4 @@
-## ⚙️ Soar-EDR Project
+## ⚙️ SOAR-EDR Automation Project
 This project demonstrates an end-to-end security orchestration and automation workflow using LimaCharlie (EDR) and Tines (SOAR) to detect, notify, and optionally isolate endpoints upon detection of malicious activity
 
 ## 📌 Playbook Objective
@@ -13,8 +13,7 @@ Message to the user contains these fields:
 - Sensor ID
 - Link to Detection (If applicable)
 
-<img width="775" alt="image" src="https://github.com/user-attachments/assets/6d200bf6-a757-4cb6-833d-9e9ebbb54d09" />
-
+<img width="743" alt="image" src="https://github.com/user-attachments/assets/bb000908-e6aa-4bf5-a4c7-2d4d04b1b85e" />
 
 ## 🛠️ Technologies & Tools
 - LimaCharlie EDR – Detection source and host isolation
