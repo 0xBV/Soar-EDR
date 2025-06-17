@@ -38,4 +38,5 @@ I generated a detection and response rule using the information from the manuall
 The primary response for this rule is to generate an alert under the "Detections" category of LimaCharlie.  The response rule also includes MITRE ATT&CK technique information.
 
 <img width="554" alt="Detection Rule creation" src="https://github.com/user-attachments/assets/f8ec44a6-4fae-462d-b016-2f393a389a4b" />
+<img width="353" alt="response_rule" src="https://github.com/user-attachments/assets/37ce0371-8d7d-4a91-b239-6eae8b1b30fe" />
 
