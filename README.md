@@ -33,3 +33,8 @@ MITRE ATT&CK Information:
 
 <img width="563" alt="image" src="https://github.com/user-attachments/assets/67054b96-d783-440f-b1e7-be8195d26b75" />
 
+## Detection and Response rule creation
+I generated a detection and response rule using the information from the manually generated event.  The rule I created makes sure that the event detected is a new or existing process on the Windows platform, with an OR rule to check if one of the parameters is true for file hash, file path, and the command line.
+<img width="554" alt="Detection Rule creation" src="https://github.com/user-attachments/assets/f8ec44a6-4fae-462d-b016-2f393a389a4b" />
+
+The primary response for this rule is to generate an alert under the "Detections" category of LimaCharlie.  The response rule also includes MITRE ATT&CK technique information.
