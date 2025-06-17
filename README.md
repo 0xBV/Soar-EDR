@@ -56,5 +56,13 @@ Triggering the "Yes" condition will send a HTTP POST request to LimaCharlie to i
 Triggering the "No" condition will send a message via Slack, informing the user that the workstation was not isolated and to investigate.
 
 ## Summary 
+This project walks through a full automation workflow using LimaCharlie (EDR) and Tines (SOAR) to detect and respond to credential dumping activity. I built a detection rule in LimaCharlie to catch LaZagne executions based on command-line arguments, file path, and known hashes. Once triggered, the detection sends data to a Tines webhook, which handles the response flow by:
+
+- Sending a Slack message to the user
+- Emailing a security analyst
+- Prompting the user to decide whether or not to isolate the affected machine
+
+If the user selects "Yes," the host is isolated via LimaCharlie’s API. If they select "No," they’re reminded to investigate further.
+This project ties together detection engineering, real-time alerts, and user interaction to build a practical, flexible response workflow.
 <img width="1063" alt="image" src="https://github.com/user-attachments/assets/8a88b814-b28e-4b72-aba8-771979b017d8" />
 
