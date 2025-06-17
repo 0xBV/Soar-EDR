@@ -64,5 +64,6 @@ This project walks through a full automation workflow using LimaCharlie (EDR) an
 
 If the user selects "Yes," the host is isolated via LimaCharlie’s API. If they select "No," they’re reminded to investigate further.
 This project ties together detection engineering, real-time alerts, and user interaction to build a practical, flexible response workflow.
+
 <img width="1063" alt="image" src="https://github.com/user-attachments/assets/8a88b814-b28e-4b72-aba8-771979b017d8" />
 
