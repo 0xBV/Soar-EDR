@@ -3,6 +3,7 @@ This project demonstrates an end-to-end security orchestration and automation wo
 
 ## Playbook Objective
 Send a Slack message to the user containing information about detections generated from LimaCharlie (EDR).  Generates a user prompt from Tines (SOAR) for playbook orchestration to optionally isolate the affected workstation.  An email is also sent to the analyst. <br>
+
 Message to the user contain these fields:
 - Time
 - Hostname
