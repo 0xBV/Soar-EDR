@@ -45,8 +45,10 @@ Once the detection rule was generated and tested to work, I set up an output to 
 The webhook is used to retrieve the detection and then have three separate actions:
 - Send a message via Slack
 <img width="523" alt="image" src="https://github.com/user-attachments/assets/9005294b-29ae-426c-a92f-66bf551f2837" />
+
 - Send an email to the security analyst
 <img width="341" alt="Detection_Email" src="https://github.com/user-attachments/assets/a634ce8e-7cf1-4234-9413-c4b9a9bf77cb" />
+
 - Prompt the user with a detection alert, with a (yes/no) option to isolate the affected workstation
 <img width="395" alt="User_Prompt" src="https://github.com/user-attachments/assets/b5784551-afe1-4009-ac29-206b55336708" />
 
