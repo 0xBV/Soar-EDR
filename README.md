@@ -52,7 +52,8 @@ The webhook is used to retrieve the detection and then have three separate actio
 - Prompt the user with a detection alert, with a (yes/no) option to isolate the affected workstation
 <img width="395" alt="User_Prompt" src="https://github.com/user-attachments/assets/b5784551-afe1-4009-ac29-206b55336708" />
 
-Triggering the "Yes" condition will send a HTTP POST request to LimaCharlie to isolate the affected workstation.  Triggering the "No" condition will send a message via Slack, informing the user that the workstation was not isolated and to investigate.
+Triggering the "Yes" condition will send a HTTP POST request to LimaCharlie to isolate the affected workstation. <br>
+Triggering the "No" condition will send a message via Slack, informing the user that the workstation was not isolated and to investigate.
 
 ## Summary 
 <img width="1063" alt="image" src="https://github.com/user-attachments/assets/8a88b814-b28e-4b72-aba8-771979b017d8" />
