@@ -24,3 +24,12 @@ Message to the user contain these fields:
 
 - Email Notifications – Automated alert delivery
 
+## Generating telemetry for Detection Rule creation
+I generated an event in LimaCharlie by triggering the execution of the "LaZagne.exe" program.  This program can be used maliciously for credential harvesting post-exploitation.
+MITRE ATT&CK Information:
+- ID: S0349
+- Type: TOOL
+- Techniques Used: T1555, T1003, T1552
+
+<img width="563" alt="image" src="https://github.com/user-attachments/assets/67054b96-d783-440f-b1e7-be8195d26b75" />
+
