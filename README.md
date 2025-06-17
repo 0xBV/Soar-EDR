@@ -25,7 +25,7 @@ Message to the user contain these fields:
 - Email Notifications – Automated alert delivery
 
 ## Generating telemetry for Detection Rule creation
-I generated an event in LimaCharlie by triggering the execution of the "LaZagne.exe" program.  This program can be used maliciously for credential harvesting post-exploitation.
+I generated an event in LimaCharlie by triggering the execution of the "LaZagne.exe" program.  This program can be used maliciously for recovering stored passwords on a system post-exploitation.
 MITRE ATT&CK Information:
 - ID: S0349
 - Type: TOOL
